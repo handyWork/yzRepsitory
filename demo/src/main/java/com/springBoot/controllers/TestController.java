@@ -11,6 +11,6 @@ public class TestController {
     @RequestMapping("/hello")
     @ResponseBody
     public String index() {
-        return "nimade";
+        return "hello handy!!";
     }
 }
