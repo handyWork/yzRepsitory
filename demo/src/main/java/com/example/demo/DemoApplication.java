@@ -4,7 +4,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 import org.springframework.context.annotation.ComponentScan;
-//@EnableEurekaServer
+@EnableEurekaServer
 @SpringBootApplication
 @ComponentScan("com.springBoot.controllers")
 public class DemoApplication {
