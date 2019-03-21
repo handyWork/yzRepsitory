@@ -22,6 +22,6 @@ public class TestController {
     public String index() {
 //        ServiceInstance instance  = client.getLocalServiceInstance();
 //        logger.info("/hello,host:"+instance.getHost()+",service_id:"+instance.getServiceId());
-        return "hello handy!!";
+        return "hello handy 我是服务提供者!!";
     }
 }
