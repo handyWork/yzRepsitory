@@ -1,6 +1,6 @@
 package com.testPackage.abstractTest;
 
-public class test2  {
+public class test2   {
  private String a;
  private String b;
     public test2() {
@@ -10,7 +10,7 @@ public class test2  {
         this.a = a;
         this.b = b;
     }
-    public void testDoing(){
+    public  void testDoing(){
         System.out.println("test2  =========testDing");
     }
 }

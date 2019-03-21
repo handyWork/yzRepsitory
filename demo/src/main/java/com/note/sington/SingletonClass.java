@@ -16,8 +16,4 @@ public class SingletonClass {
         return  instance;
     }
 
-    private SingletonClass(){
-
-    }
-
 }
